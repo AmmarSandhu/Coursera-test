@@ -21,11 +21,15 @@ p{
 }
 .item-title
 {
-	border:1px solid blue;
+  border-left: 3px solid #1C315E;
+  border-bottom: 3px solid #1C315E;
+  border-radius: 10px;
 	padding: 5px;
 	float: right;
 	width: 40%;
 	text-align: center;
+  background-color: #88A47C;
+  color: #FFFFFF;
 
 }
 
@@ -37,13 +41,19 @@ p{
 }
 .o_container{
   padding: 0 0 0 25px;
+  margin: 0 0 20px 0;
 }
 .i_container{
-  border: 1px solid #407088;
+  border: 3px solid #1C315E;
+  border-radius: 10px;
+  background-color: #678983;
+  color: #FFFFFF;
 }
+
 
 @media (min-width:992px)
 {
+
 	.col-large-1
 	{
 		width: 8.33%;
@@ -117,6 +127,9 @@ p{
 		float: left;
 
 	}
+  .i_container:hover{
+    transform: scale(1.1);
+  }
 }
 @media (min-width:768px) and (max-width:991px)
 {
@@ -193,6 +206,9 @@ p{
 		float: left;
 
 	}
+  .i_container:hover{
+    transform: scale(1.045);
+  }
 }
 @media (max-width:767px)
 {
@@ -269,4 +285,7 @@ p{
 		float: left;
 
 	}
+  .i_container:hover{
+    transform: scale(1.03);
+  }
 }
