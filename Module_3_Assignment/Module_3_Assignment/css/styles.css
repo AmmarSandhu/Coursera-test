@@ -1,0 +1,163 @@
+body{
+  background-color: #ECF0F1;
+  font-size: 16px;
+  color:  #AF7AC5;
+  font-family: 'Merriweather', serif;
+}
+
+#nav-header{
+  background-color: #5F6A6A;
+  border: 0;
+
+}
+
+.navbar-brand h1 {
+  text-shadow: 1px 1px 1px #222;
+  color: #AF7AC5;
+  margin-top: 10px;
+}
+
+.navbar-brand a{
+  text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#dropdown-list{
+  list-style: none;
+  margin-top: 15px;
+  background-color: #F4D03F;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #AF7AC5;
+}
+
+#dropdown-list a:hover{
+  background-color: #ECF0F1;
+}
+.navbar button.navbar-toggler{
+  border: 1px solid #AF7AC5;
+}
+.navbar .navbar-toggler{
+  color: #AF7AC5;
+}
+.navbar .navbar-toggler-icon{
+  color: #AF7AC5;
+}
+.list-item{
+  margin: 10px 0 10px 0;
+
+}
+.chicken-container{
+  background-color: #5F6A6A;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid #AF7AC5;
+  padding: 0;
+  height: 1000px;
+  margin-bottom: 20px;
+
+}
+.chicken-container-tittle{
+  float: right;
+  text-align: center;
+  width: 20%;
+  padding: 5px;
+  margin: 0 0 10px 0;
+  border: 2px solid #AF7AC5;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #AF7AC5;
+}
+.cicken-container-description{
+  clear: both;
+  margin: 5px 5px 10px 10px;
+  padding: 5px;
+}
+@media (max-width:577px) {
+  .chicken-container-tittle{
+    font-size: 0.8em;
+  }
+}
+.div-alert{
+  text-align: center;
+  background-color: #5F6A6A;
+  border: 1px solid #AF7AC5;
+  color: #AF7AC5;
+  width: 50%;
+  font-size: 1.4vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.optional-button{
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.optional-button{
+  background-color: #5F6A6A;
+  color: #AF7AC5;
+  border: 1px solid #AF7AC5;
+}
+.optional-button a{
+  color: #AF7AC5;
+  text-decoration: none;
+}
+.optional-button:hover{
+  box-shadow: 5px 5px 5px #AF7AC5;
+  background-color: #512E5F;
+  border: 2px solid #AF7AC5;
+  color: white;
+
+}
+.optional-button a:hover{
+  color: white;
+}
+
+/* ungraded version css */
+
+.main-container{
+  background-color: #5F6A6A;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid #AF7AC5;
+  padding: 0;
+
+  margin-bottom: 20px;
+}
+
+.container-description {
+  clear: both;
+  margin: 5px 5px 10px 10px;
+  padding: 5px;
+}
+
+.btt-button{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #5F6A6A;
+  color: #AF7AC5;
+  border: 1px solid #AF7AC5;
+}
+.btt-button a{
+  color: #AF7AC5;
+  text-decoration: none;
+}
+.btt-button:hover{
+  box-shadow: 5px 5px 5px #AF7AC5;
+  background-color: #512E5F;
+  border: 2px solid #AF7AC5;
+  color: white;
+
+}
+.btt-button a:hover{
+  color: white;
+}
